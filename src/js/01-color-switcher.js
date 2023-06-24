@@ -5,6 +5,7 @@ let intervalid;
 
 function startColorSwitching() {
   startBtn.disabled = true;
+  stopBtn.disabled = false;
 
   intervalid = setInterval(function () {
     document.body.style.backgroundColor = getRandomHexColor();
@@ -12,6 +13,7 @@ function startColorSwitching() {
 }
 function stopColorSwitchihg() {
   startBtn.disabled = false;
+  stopBtn.disabled = true;
   clearInterval(intervalid);
 }
 
