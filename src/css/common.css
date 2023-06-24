@@ -16,3 +16,29 @@ img {
   display: block;
   max-width: 100%;
 }
+.timer {
+  display: flex;
+  font-size: 30px;
+  font-weight: 500;
+}
+.value {
+  color: green;
+}
+.label {
+  display: flex;
+  font-size: 20px;
+  margin: 0 20px 0 0;
+  color: blue;
+}
+.displei-btn {
+  display: flex;
+  margin-top: 300px;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  font-size: 20px;
+  padding: 6px 15px;
+  cursor: pointer;
+  margin-left: 10px;
+}
